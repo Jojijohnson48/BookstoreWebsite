@@ -1,0 +1,238 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;  
+}
+.header {
+	
+	background-color: #333;
+	margin:0;
+
+}
+
+h1 {
+	
+  color: #fff;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 40px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+.navigator {
+	padding: 0;
+	margin: 0;
+
+}
+
+#leaf {
+	height: 30px;
+
+}
+#leaf1 {
+	height: 400px;
+	width: 100%;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+.btn a {
+	color: black;
+
+}
+
+
+.btn {
+	list-style: disk;
+}
+.col {
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	margin-right: 70px;
+	background-color: #fff;
+	border:2px solid;
+	padding-top:0;
+	padding-bottom: 0;
+	padding-right:10px;
+	padding-left:5px;
+
+}
+
+.col li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	
+}
+.col h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+div.jumbotron {
+	margin: 0;
+	background: url('http://getwallpapers.com/wallpaper/full/1/b/a/166020.jpg');
+	/*background: url(http://wallpaperus.org/wallpapers/03/122/books-1920x1080-wallpaper-1711426.jpg);*/
+	height:800px;width: 100%;
+	background-position:center center;
+	background-repeat: no-repeat;
+}
+
+.nav-menu li{
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 10px;
+    font-family: 'Tahoma', sans-serif;
+    margin: 0 auto;
+    display: inline-block; 
+    text-align:center;
+    font-weight: 500;
+}
+.nav-menu a:hover {
+	padding: 10px;
+	background-color: #777;
+}
+.main {
+	position: relative;
+	top:180px;
+	text-align: center;
+}
+.main h1 {
+	color: #333;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 600;
+  	font-size: 70px;
+  	margin-top: 0;
+  	margin-bottom: 80px;
+  	text-transform: uppercase;
+}
+.btn-main {
+	top:20px;
+	background-color: #333;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding:10px;
+	text-transform:uppercase;
+	letter-spacing: 1.3px;
+}
+.btn-main:hover {
+	background-color:#C70039;
+}
+.supporting{
+	display: table;
+
+	
+}
+.container {
+	display: table-cell;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-style: 'Raleway',sans-serif;
+    font-size: 17px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.clearfix {
+	clear: both;
+}
+.book {
+	background-color:#C70039 ;
+	text-align: center;
+	padding:10px;
+}
+.supporting {
+	font-family: 'Raleway', sans-serif;
+}
+.col1 {
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	background-color: #fff;
+	border:2px solid;
+	padding-top:0;
+	padding-bottom: 0;
+	padding-right:10px;
+	padding-left:5px;
+
+}
+
+.col1 h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.book:hover {
+	background-color:#3e8e41;
+}
+p {
+	text-align: center;
+}
+.footer {
+	background-color: #F0F3F4  ;
+	padding: 50px 30px;
+
+}
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: sticky;
+}
+.footer .container h3 {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	float: right;
+}
+#login a {
+	float: right;
+}
